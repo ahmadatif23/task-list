@@ -42,6 +42,7 @@ const addTask = () => {
   })
 
   input_content.value = ''
+  input_date.value = null
 }
 
 const removeTask = (task) => {
